@@ -10,7 +10,7 @@ function generatePassword(
     for (let i = 0; i < length; i++) {
         let random = Math.floor(Math.random() * allCharacters.length)
         password += allCharacters[random]
-
+// that is how you create a password generator
 
     }
     return password;
